@@ -1,0 +1,525 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    background-color: red;
+}
+
+.Wallpaper{
+   background-image: url("wallpapersden.com_a-river-flow_2048x1300.jpg");
+   background-repeat: no-repeat;
+   height: 728px;
+   width: 98.8vw;
+   background-size: cover;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    color: white;
+    padding-top: 20px;
+    column-gap: 50px;
+    padding-left: 440px;
+
+}
+
+.LOGO{
+        color: white;
+        display: flex;
+        margin-left: 440px;
+      margin-top: 90px;
+      font-size: xx-large;
+}
+
+.s1{
+    display: flex;
+    color: white;
+    margin-left: 350px;
+margin-top: 100px;
+}
+
+.s2{
+    display: flex;
+    color:white;
+    margin-left: 20px;
+    margin-top: 100px;
+}
+
+.NavB{
+    display: flex;
+    padding-bottom: 20px; 
+      
+}
+
+.line{
+    padding-top: -10px;
+    width: 730px;
+    padding-left: 420px;
+}
+
+.head1{
+        margin-top: 130px;
+        margin-left: 720px;
+        color: white;
+        font-size: larger;
+        align-items: center;
+        justify-content: center;
+}
+
+.head2{
+    align-items: center;
+    justify-content: center;
+    margin-left: 610px;
+    color: white;
+    font-size: xx-large;
+}
+
+.but1{
+    margin-left: 660px;
+    margin-top: 15px;
+    height: 50px;
+    width: 280px;
+    border-radius: 40px;
+    font-size: large;
+}
+
+.but1:hover{
+background-color: black;
+color: white;
+border: 1px solid black;
+}
+
+.inf{
+    
+
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.body1{
+    height: 4000px;
+    background-color:black;
+}
+
+.pg2{
+    margin-top: 100px;
+    margin-left: 50px;
+    color: white;
+    font-size: 30px;
+}
+
+.line1{
+    width: 200px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.Para{
+    color: white;
+    margin-left: 50px;
+    margin-top: 30px;
+    width: 94vw;
+    font-size: 20px;
+}
+
+.pg3{
+    margin-top: 100px;
+    margin-left: 50px;
+    color: white;
+    font-size: 30px;
+}
+
+.line2{
+    width: 155px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.Rec1 {
+    display: flex;
+    gap: 10px; /* Adjusts space between each R div */
+  }
+  
+  .R1, .R2, .R3, .R4 {
+   margin-top: 40px;
+    background-image: url("hand.jpeg"); /* You can use different images for each if needed */
+    height: 280px;
+    width: 340px;
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgba(255, 255, 255, 0);
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+  }
+
+  .R1{
+    margin-left: 40px;
+  }
+
+  .R2{
+    margin-left: 20px;
+    background-image: url("portrait-successful-business-people-working-together-corporate-office-teamwork-concept-262825712.webp");
+  }
+
+  .R3{
+    margin-left: 20px;
+        background-image: url("k976GJLUC9iNfC5orutNqk.jpg");
+  }
+
+  .R4{
+    margin-left: 20px;
+        background-image: url("treat-employees-with-respect.webp");
+  }
+  
+  .imag {
+    background-color: rgba(0, 0, 0, 0.8); /* Adjusted for semi-transparency */
+    width: 100%;
+    height: 100px; /* Adjusted for better visibility */
+    bottom: -100%;
+    transition: bottom 1s ease;
+    left: 0;
+    position: absolute;
+    box-sizing: border-box;
+    color: white; /* Ensures the text is visible */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .R1:hover .imag, .R2:hover .imag, .R3:hover .imag, .R4:hover .imag {
+    bottom: 0;
+  }
+
+.line3{
+    width: 280px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.Rec2{
+    display: flex;
+    
+    height: 250px;
+    width: 95vw;
+    margin-top:  20px;
+    margin-left: 43px;
+}
+
+.R5{
+    background-color: white;
+    height: 300px;
+    width: 700px;
+    margin-top: 20px;
+    border-radius: 20px;
+    display: flex;
+}
+
+.R6{
+   background-color: white;
+    height: 300px;
+    width: 700px;
+    margin-left: 40px;
+    border-radius: 20px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.c1{
+    color: white;
+}
+
+.Circle1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    margin-top: 100px;
+    border: 1px solid white;
+    margin-left: -20px;
+}
+
+.a1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+
+}
+.a2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+
+.Circles{
+            display: flex;
+            margin-left: 730px;
+}
+
+.Circle2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    border: 1px solid white;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.line4{
+    margin-top: 80px;
+    width: 94vw;
+    margin-left: 43px;
+
+}
+.Leave{
+    margin-top: 150px;
+    margin-left: 43px;
+    color: white;
+}
+.but2{
+    height: 50px;
+    width: 150px;
+    margin-top: 70px;
+    margin-left: 43px;
+    border-radius: 40px;
+}
+.Stars{
+    font-size: x-large;
+    color: white;
+}
+
+.Google{
+    font-size: x-large;
+    color: white;
+    display: grid;
+}
+
+
+.Icons{
+   display: flex;
+    column-gap: 208px;
+    margin-top: 100px;
+    
+}
+
+.Stars1{
+    font-size: x-large;
+    color: white;
+}
+
+.Stars2{
+    font-size: x-large;
+    color: white;
+}
+
+.Stars3{
+    font-size: x-large;
+    color: white;
+}
+
+.firms{
+    font-size: x-large;
+    color: white;
+}
+
+.Glass{
+    font-size: x-large;
+    color: white;
+}
+
+.Reviews{
+    margin-top: -6px;
+}
+
+.line5{
+    color: white;
+    width: 140px;
+    margin-left: 43px;
+}
+.Reach{
+    margin-left: 43px;
+    color: white;
+    margin-top: 130px;
+    font-size: 30px;
+}
+.bodya{
+    background-color: brown;
+    height: 500px;
+    width: 350px;
+    margin-top: 30px;
+    margin-left: 43px;
+    background-image: url("ani1.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 13px;
+}
+
+.bodyb{
+    margin-left: 80px;
+ color: white;   
+}
+
+.Body1{
+    display: flex;
+}
+.name{
+    margin-top: 26px;
+}
+
+.line6{
+    color: white;
+    width: 66vw;
+    margin-top: 30px;
+}
+
+
+.line7{
+    color: white;
+    width: 66vw;
+    margin-top: 140px;
+}
+
+.EmailID{
+    margin-top: 30px;
+}
+.Contact{
+    margin-top: 30px;
+}
+.Subject{
+    margin-top: 30px;   
+}
+.but3{
+    height: 50px;
+    width: 150px;
+    margin-top: 50px;
+    margin-left: 390px;
+    border-radius: 40px;
+}
+.pic1{
+    background-image:url("f1.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    background-color: brown;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.pic2{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("f2.jpeg");
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    background-color: brown;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.Text1{
+
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.small1{
+    margin-top: 10px;
+    margin-top: 52px;
+    margin-left: -168px;
+    
+}
+
+.small2{
+    margin-top: 54px;
+    margin-left: -142px;
+}
+
+.star1{
+    
+    margin-top: 150px;
+    color: rgb(161, 161, 5);
+}
+
+.star2{
+  
+    margin-top: 150px;
+    color: rgb(161, 161, 5);
+}
+
+.wr1{
+    margin-left: -220px;
+    margin-top: 200px;
+}
+
+.wr2{
+    margin-left: -220px;
+    margin-top: 200px;
+}
+.yellow1{
+    margin-top: -70px;
+    margin-left: -100px;
+    display: flex;
+}
+.yellow2{
+    margin-top: -70px;
+    margin-left: -100px;
+    display: flex;
+}
+
+.But2{
+    height: 30px;
+    width: 120px;
+    margin-top: 50px;
+    margin-left: -130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    
+}
+
+
+
+.imag1{
+    margin-top: -20px;
+    margin-left: -20px;
+  
+}
+
+.but3:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid black;    
+}
+#im{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
